@@ -1,0 +1,21 @@
+Persiapan Awal
+Unduh ISO: Dapatkan file ISO Debian terbaru dari situs resmi Debian.
+Buat Media Boot: Gunakan aplikasi seperti Rufus atau Balena Etcher untuk membuat USB flash drive bootable dari file ISO.
+Atur BIOS/UEFI: Masuk ke BIOS/UEFI (tekan F2, F12, Del, atau Esc saat start) dan ubah urutan boot untuk memulai dari USB/DVD. 
+Proses Instalasi
+Boot dari Media: Komputer akan booting dari USB/DVD, lalu muncul menu instalasi Debian.
+Pilih Metode: Pilih Graphical Install (dengan mouse) atau Install (hanya keyboard).
+Pilih Bahasa & Lokasi: Pilih Bahasa (misal English) dan Lokasi (misal United States/Indonesia).
+Konfigurasi Keyboard: Pilih tata letak keyboard (misal American English).
+Deteksi Perangkat Keras: Tunggu proses deteksi selesai.
+Konfigurasi Jaringan: Masukkan Hostname (nama komputer), Domain Name (opsional), lalu lakukan konfigurasi jaringan (DHCP atau statis).
+Kata Sandi Root: Buat dan konfirmasi kata sandi untuk pengguna root (administrator).
+Buat Akun Pengguna: Masukkan nama lengkap, username, dan password untuk akun pengguna biasa.
+Partisi Disk: Pilih skema partisi. Untuk pemula, Guided - use entire disk atau Guided - use entire disk and set up LVM bisa dipilih, lalu konfirmasi untuk menulis perubahan.
+Instalasi Sistem Dasar: Tunggu proses instalasi paket dasar selesai. Anda mungkin ditanya untuk memindai media instalasi lagi.
+Pilih Perangkat Lunak: Pilih desktop environment (GNOME, KDE, dll.) dan paket lain yang dibutuhkan (biasanya Standard system utilities sudah dicentang).
+Instal GRUB: Pilih Yes untuk menginstal GRUB boot loader ke master boot record (MBR) agar bisa dual-boot.
+Selesaikan Instalasi: Pilih Finish Installation dan restart komputer Anda. Lepas media instalasi saat diminta.
+Login: Masuk dengan username dan password yang telah dibuat. 
+Langkah-langkah Instalasi Debian untuk Pengguna Linux Pemula
+1. Booting dari USB atau DVD. Masukkan USB flash drive atau DVD yang sudah berisi file ISO Debian ke komputer Anda. Setelah itu, r...
